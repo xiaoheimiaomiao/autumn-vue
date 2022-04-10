@@ -1,0 +1,57 @@
+@import "~view-design/src/styles/index.less";
+
+//全局配置
+@primary-color: #6699CC;
+@info-color: #e4d1d3;
+@success-color:#1687a7;
+@processing-color: @primary-color;
+@warning-color: #894276;
+@error-color: #DD0A35;
+@normal-color: @primary-color;
+@link-color: #62D0CC;
+@link-hover-color: tint(@link-color, 20%);
+@link-active-color: shade(@link-color, 5%);
+@selected-color: fade(@primary-color, 90%);
+@tooltip-color: #fff;
+@subsidiary-color: #808695;
+@rate-star-color: #f5a623;
+@white: #fff;
+@black: #000;
+
+// Shadow
+@shadow-color: fade(@primary-color, 20%);
+@shadow-card: 0 10px 10px 0 fade(@primary-color, 10%);
+@shadow-up: 0 -1px 6px @shadow-color;
+@shadow-down: 0 1px 6px @shadow-color;
+@shadow-left: -1px 0 6px @shadow-color;
+@shadow-right: 1px 0 6px @shadow-color;
+
+// input
+@input-border-color: @primary-color;
+
+// layout
+@layout-header-background: @primary-color;
+@layout-header-font-color: @white;
+
+// table
+@table-thead-bg: fade(@primary-color, 50%);
+@table-td-stripe-bg: fade(@primary-color, 20%);
+@table-td-hover-bg: fade(@info-color, 20%);
+@table-td-highlight-bg: fade(@info-color, 10%);
+
+// menu
+@menu-light-active-font-color: @white;
+
+// button
+@btn-default-bg: @info-color;
+@btn-font-weight: bold;
+@btn-default-border: @primary-color;
+
+//less样式
+.head-text {
+    color: @layout-header-font-color;
+    font-size: 15px;
+    font-family: Helvetica, serif;
+}
+
+
